@@ -9,8 +9,6 @@ Chester can perform any one of its functions through voice commands. His functio
 ## How we built it
 Chester was built on python and uses numerous python libraries to perform voice-activated functions. The speech_recognition library uses Google Cloud's speech recognition API to turn audio inputs into string data. When Chester is activated, it will listen to audio coming from your computer's microphone and turn it into a string. Chester will then see if that string matches with any of the programmed voice commands, and if it does, Chester will read the text associated with the function out loud using the pyttsx3 library. Data like weather and time are received through libraries that send API requests and functions like the calculator are performed natively. 
 
-## Challenges we ran into
-
 ## What we learned
 Throughout this build, we learned a lot about webscraping
 
